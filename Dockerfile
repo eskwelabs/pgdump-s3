@@ -1,6 +1,6 @@
 FROM postgres:11.10-alpine
 
-RUN apk add --no-cache py2-pip && pip install awscli && mkdir /backup
+RUN apk add --no-cache py-pip && pip install awscli && mkdir /backup
 
 ENV AWS_DEFAULT_REGION=ap-southeast-1
 

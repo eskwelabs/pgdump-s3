@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-PGDUMP_CMD=`python /usr/local/bin/pguri`
+PGDUMP_CMD=`python3 /usr/local/bin/pguri`
 BACKUP_NAME="$(date -u +%Y-%m-%d_%H-%M-%S)_UTC.gz"
 
 # Run backup
